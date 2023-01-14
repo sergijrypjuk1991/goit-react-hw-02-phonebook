@@ -9,6 +9,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p, h1, h2, h3, h4, h5, h6, ul, ol {
+  margin: 0;
+}
+
+h1, h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.addContact {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

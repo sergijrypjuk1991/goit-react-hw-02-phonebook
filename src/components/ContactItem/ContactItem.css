@@ -1,0 +1,13 @@
+.Contacts {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid gold;
+}
+
+.Contacts__name {
+    font-size: 30px;
+    color: rgb(13, 24, 129);
+    margin-right: 10px;
+}
+
