@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './Filter.css';
+import css from './Filter.styled.css';
 const Filter = ({ value, onChange }) => {
   return (
     <div className='Filter'>

@@ -35,6 +35,7 @@ state = {
   }
 
   addContact = ({ name, number }) => {
+
     const { contacts } = this.state;
 
     const hasName = contacts.some(

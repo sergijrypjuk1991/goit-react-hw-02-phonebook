@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './ContactItem.css';
+import css from './ContactItem.styled.css';
 const ContactItem = ({ id, name, number, onDeleteContact }) => {
   return (
     <div className='Contacts'>

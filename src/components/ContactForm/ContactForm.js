@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
 import PropTypes from 'prop-types';
-import './ContactForm.css';
+import css from './ContactForm.styled.css';
 
 class ContactForm extends Component {
   static propTypes = {
@@ -27,8 +27,10 @@ class ContactForm extends Component {
   };
 
   reset = () => {
-    this.setState({ name: '', number: '' });
+    this.setState({ name: '' });
   };
+
+  
 
   render() {
     const { name, number } = this.state;
@@ -50,7 +52,7 @@ class ContactForm extends Component {
             className="Contact-form__input-name"
           />
         </label>
-        <label htmlFor={this.numberInputId}className="Contact-form__label-number">
+        <label htmlFor={this.numberInputId} className="Contact-form__label-number">
           <p className="Contact-form__number">Number</p>
           <input
             placeholder="377-44-26"
